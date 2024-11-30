@@ -18,4 +18,10 @@
     <Folder Include="Controllers\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\Kazue.Infrastructure\Kazue.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Kazue.Application\Kazue.Application\Kazue.Application.csproj" />
+    <ProjectReference Include="..\..\Kazue.Exception\Kazue.Exception\Kazue.Exception.csproj" />
+  </ItemGroup>
+
 </Project>
